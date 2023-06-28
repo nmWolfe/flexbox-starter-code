@@ -6,16 +6,18 @@ div {
   border: green solid 2px;
   color: white;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .flex-container {
+  height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
+
+
 /* 
 -----------------------------
 flex-direction: row;
@@ -26,6 +28,7 @@ row | row-reverse | column | column-reverse; */
 -----------------------------
 /* 
 flex-wrap: wrap-reverse;
+ult
 
 nowrap | wrap | wrap-reverse; */
 -----------------------------
